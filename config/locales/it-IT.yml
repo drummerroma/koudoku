@@ -1,0 +1,57 @@
+# Translation by alex drummer <alex@idra.info>
+it:
+  koudoku:
+
+    confirmations:
+      feature_depends_on_devise: "This feature depends on Devise for authentication."
+      subscription_cancelled: "You've successfully cancelled your subscription."
+      subscription_updated: "You've successfully updated your subscription."
+      subscription_upgraded: "You've been successfully upgraded."
+    failure:
+      problem_processing_transaction: "There was a problem processing this transaction."
+      unauthorized: "Non sei autorizzato"
+    plan_intervals:
+      month: "mensile"
+      year: "annuale"
+      week: "settimanale"
+      6month: "half-year"
+      3month: "trimestrale"
+    plan_difference:
+      downgrade: "Downgrade"
+      selected: "selezionato"
+      start_trial: "inizia periodo di prova"
+      upgrade: "Upgrade"
+    payment:
+      cancel: "Cancella"
+      card_number: "Numero carta"
+      card_on_file_with_last_four: "The card on file for your account ends with %{last_four}."
+      cvc: "CVC"
+      expiration: "Expiration (MM/YYYY)"
+      payment_information: "Modalità di pagamento"
+      save_billing_info: "Salva Billing Information"
+      upgrade_account: "Upgrade Your Account"
+      update_payment_information: "Aggiorna i dati di pagamento"
+    social_proof:
+      testimonial1:
+        person: "Person at Place"
+        quote: "\"Some Great Quote\""
+      testimonial2:
+        person: "Person at Place"
+        quote: "\"This is a great service and you've been the best ever! Thanks!\""
+      testimonial3:
+        person: "Person at Place"
+        quote: "\"I love you guys and you're the best! You're the best!\""
+    subscriptions:
+      cancel_your_subscription: "cancellare il tuo abbonamento"
+      cancel_your_subscription_note_html: "Puoi anche %{link}."
+      choose_other_plan: "Seleziona un'altro abbonamento"
+      choose_plan: "Selezione il tuo abbonamento"
+      free_trial_for_days: "%{days}-giorni di prova gratuita"
+      no_subscription: "Nessun abbonamento"
+      not_subscribed_to_plan: "Non hai sottoscritto nessun abbonamento a pagamento."
+      sign_up: "Registrati"
+      start_trial: "Inizia il tuo periodo di prova gratuito"
+      subscribed: "Sei abbonato!"
+      subscribed_to_plan: "Sei abbonato al piano %{plan}."
+      upgrade_your_account: "Upgrade Your Account"
+      which_plan_is_best: "Quale è l'abbonamento più adatto a te?"
