@@ -11,11 +11,11 @@ it:
       problem_processing_transaction: "Abbiamo riscontrato un problema nella esecuzione di questa transazione."
       unauthorized: "Non sei autorizzato"
     plan_intervals:
-      month: "mensile"
-      year: "annuale"
-      week: "settimanale"
-      6month: "semestrale"
-      3month: "trimestrale"
+      month: "mese"
+      year: "anno"
+      week: "settimana"
+      6month: "semestre"
+      3month: "trimestre"
     plan_difference:
       downgrade: "Aggiorna"
       selected: "selezionato"
