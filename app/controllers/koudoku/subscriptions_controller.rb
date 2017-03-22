@@ -85,7 +85,6 @@ module Koudoku
 
     def new
       if no_owner?
-
         if defined?(Devise)
 
           # by default these methods support devise.
@@ -105,8 +104,9 @@ module Koudoku
       end
     end
 
+    # ad: if we have a subscription without plan_id and registered payment method (like after cancelled subscription)this should not redirect!
     def show_existing_subscription
-      if @owner.subscription.present?
+      if @owner.subscription.present? && @owner.subscription.plan
         redirect_to owner_subscription_path(@owner, @owner.subscription)
       end
     end
